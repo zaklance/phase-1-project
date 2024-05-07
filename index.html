@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="../assets/css/style.css" rel="stylesheet" />
+    <script src="../assets/js/index.js" defer></script>
+</head>
+<body oncopy="return false" oncut="return false" onpaste="return true">
+    <header>
+        <h1 class="title">Speculative Directive</h1>
+        <h2 class="title">Directive 111 Mass Modeler</h2>
+    </header>
+    <div class="wrapper">
+        <div>
+            <form id="form111">
+                <h3>Mass Modeler</h3>
+                <label>
+                    <h4 class="formHeader">Identifier</h4>
+                    <input type="text" name="massName" placeholder="Mass Name">
+                </label>
+                <label>
+                    <h4 class="formHeader">Creator</h4>
+                    <input type="text" name="creator" placeholder="Creator Name">
+                </label>
+                <label>
+                    <h4 class="formHeader">EC-1 Layer Name</h4>
+                    <input type="text" name="ec1Name" placeholder="Layer Name">
+                </label>
+                <label>
+                    <h4 class="formHeader">EC-1 Points</h4>
+                    <input id="ec1Pt1" type="text" name="ec1Pt1" placeholder="Point 1 (x, y)" value="">
+                    <input id="ec1Pt2" type="text" name="ec1Pt2" placeholder="Point 2 (x, y)" value="">
+                    <input id="ec1Pt3" type="text" name="ec1Pt3" placeholder="Point 3 (x, y)" value="">
+                    <input id="ec1Pt4" type="text" name="ec1Pt4" placeholder="Point 4 (x, y)" value="">
+                    <input id="ec1Pt5" type="text" name="ec1Pt5" placeholder="Point 5 (x, y)" value="">
+                    <input id="ec1Pt6" type="text" name="ec1Pt6" placeholder="Point 6 (x, y)" value="">
+                    <p></p>
+                </label>
+                <label id="drawArea">
+                    <div id="drawBox"></div>
+                    <p class="smallText">Click the points of your polyline in the square above. 6 clicks: 1 acute angle, 1 obtuse, and one right angle.</p>
+                </label>
+                <label>
+                    <h4 class="formHeader">EC-1 Height</h4>
+                    <input type="number" name="ec1Height" placeholder="Height">
+                </label>
+                <label>
+                    <h4 class="formHeader">Maelstrom</h4>
+                    <input type="text" name="centerPt" placeholder="Center Point">
+                    <input type="number" name="radius1" placeholder="Radius 1">
+                    <input type="number" name="radius2" placeholder="Radius 2">
+                    <input type="number" name="callAngle" placeholder="Call Angle">
+                </label>
+                <label>
+                    <h4 class="formHeader">Square 1 Points</h4>
+                    <input type="text" name="sq1Pt1" placeholder="Point 1 (x, y)">
+                    <input type="text" name="sq1Pt2" placeholder="Point 2 (x, y)">
+                    <input type="text" name="sq1Pt3" placeholder="Point 3 (x, y)">
+                    <input type="text" name="sq1Pt4" placeholder="Point 4 (x, y)">
+                </label>
+                <label>
+                    <h4 class="formHeader">Square 1 Height</h4>
+                    <input type="number" name="sq1Height" placeholder="Height">
+                </label>
+                <label>
+                    <h4 class="formHeader">Guide Line Points</h4>
+                    <input type="text" name="guidePt1" placeholder="Point 1 (x, y, z)">
+                    <input type="text" name="guidePt2" placeholder="Point 2 (x, y, z)">
+                    <!-- <input type="number" name="guideLength" placeholder="length"> -->
+                </label>
+                <label>
+                    <h4 class="formHeader">Wirecut</h4>
+                    <input type="number" name="cutDepth" placeholder="cut depth">
+                    <input type="text" name="selectDelete" placeholder="Delete: A or B">
+                </label>
+                <label>
+                    <h4 class="formHeader">Square 2 Points</h4>
+                    <input type="text" name="sq2Pt1" placeholder="Point 1 (x, y)">
+                    <input type="text" name="sq2Pt2" placeholder="Point 2 (x, y)">
+                    <input type="text" name="sq2Pt3" placeholder="Point 3 (x, y)">
+                    <input type="text" name="sq2Pt4" placeholder="Point 4 (x, y)">
+                </label>
+                <label>
+                    <h4 class="formHeader">Square 2 Height</h4>
+                    <input type="number" name="sq2Height" placeholder="Height">
+                </label>
+                <label>
+                    <h4 class="formHeader">Shirt Color</h4>
+                    <input type="text" name="colorShirt" placeholder="Color of Shirt">
+                </label>
+                <label>
+                    <h4 class="formHeader">Eye Color</h4>
+                    <input type="text" name="colorEye" placeholder="RGB Values 0-255 (r,g,b)">
+                    <p class="smallText">Use the color picker and enter the RGB values (0-255) above.</p>
+                    <input type="color"/>
+                </label>
+                <label>
+                    <h4 class="formHeader">Email Text Content</h4>
+                    <input type="text" name="emailContent" placeholder="Text, if they entered a message">
+                </label>
+                <label>
+                    <h4 class="formHeader">Error</h4>
+                    <input type="text" name="error" placeholder="Error Info">
+                </label>
+                <input id="submit" type="submit" value="Submit Mass" />
+            </form>
+            <div id="directive" class="container">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@thednp/color-picker": "^2.0.0-alpha10",
+    "@yaireo/color-picker": "^0.13.0"
+  }
+}

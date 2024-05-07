@@ -1,0 +1,820 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "name": "14-02",
+      "creator": "Nathan Bellin",
+      "ec1Name": "A Name",
+      "ec1Points": {
+        "xyPt1": "5, 10",
+        "xyPt2": "0, 10",
+        "xyPt3": "0, 3",
+        "xyPt4": "5.21, -3.58",
+        "xyPt5": "3.98, -9.78",
+        "xyPt6": "24.80, 0.77"
+      },
+      "ec1Height": "18.32",
+      "maelstrom": {
+        "centerPt": "",
+        "radius1": "",
+        "radius2": "",
+        "callAngle": ""
+      },
+      "tweenCurve": "",
+      "square1": {
+        "xyPt1": "",
+        "xyPt2": "",
+        "xyPt3": "",
+        "xyPt4": "",
+        "height": ""
+      },
+      "guide": {
+        "xyzPt1": "3.98, -9.78, 0",
+        "xyzPt2": "14.9, 5,38, 18.32",
+        "length": "26.17"
+      },
+      "wirecut": {
+        "depth": "",
+        "selectDelete": ""
+      },
+      "square2": {
+        "xyPt1": "17.34, 12.28",
+        "xyPt2": "15.56, 0.12",
+        "xyPt3": "27.71, -1.65",
+        "xyPt4": "29.5, 10.50",
+        "height": "42.18"
+      },
+      "ec2": {
+        "colorShirt": "Grey",
+        "colorEye": "106, 107, 53"
+      },
+      "emailContent": "If nothing else, this has given me a lot more training in Rhino ops.",
+      "error": "013 2 - Boolean differenced the wrong object."
+    },
+    {
+      "id": "2",
+      "name": "26-18",
+      "creator": "Zacc Rowe",
+      "ec1Name": "Bazooka Joe",
+      "ec1Points": {
+        "xyPt1": "1.57, 34.85",
+        "xyPt2": "22.34, 1.96",
+        "xyPt3": "66.48, 1.96",
+        "xyPt4": "66.48, 34.85",
+        "xyPt5": "83.79, 67.3",
+        "xyPt6": "22.34, 67.3"
+      },
+      "ec1Height": "145.61",
+      "maelstrom": {
+        "centerPt": "",
+        "radius1": "",
+        "radius2": "",
+        "callAngle": ""
+      },
+      "tweenCurve": "",
+      "square1": {
+        "xyPt1": "",
+        "xyPt2": "",
+        "xyPt3": "",
+        "xyPt4": "",
+        "height": ""
+      },
+      "guide": {
+        "xyzPt1": "66.48, 34.85, 0",
+        "xyzPt2": "53.07, 67.31, 145.61",
+        "length": "149.79"
+      },
+      "wirecut": {
+        "depth": "",
+        "selectDelete": ""
+      },
+      "square2": {
+        "xyPt1": "66.48, 1.96",
+        "xyPt2": "66.48, 69.80",
+        "xyPt3": "-1.35, 69.8",
+        "xyPt4": "-1.35, 1.96",
+        "height": "145.61"
+      },
+      "ec2": {
+        "colorShirt": "Gray",
+        "colorEye": "0, 0, 255"
+      },
+      "emailContent": "Here yo go senior.",
+      "error": ""
+    },
+    {
+      "id": "3",
+      "name": "13-07",
+      "creator": "Mitchell Greetan",
+      "ec1Name": "Gold Leader",
+      "ec1Points": {
+        "xyPt1": "14, -22.5",
+        "xyPt2": "53, 12",
+        "xyPt3": "7.88, 63",
+        "xyPt4": "19.5, 12",
+        "xyPt5": "-61, -13.96",
+        "xyPt6": "-77, -78.5"
+      },
+      "ec1Height": "62",
+      "maelstrom": {
+        "centerPt": "",
+        "radius1": "",
+        "radius2": "",
+        "callAngle": ""
+      },
+      "tweenCurve": "",
+      "square1": {
+        "xyPt1": "",
+        "xyPt2": "",
+        "xyPt3": "",
+        "xyPt4": "",
+        "height": ""
+      },
+      "guide": {
+        "xyzPt1": "-77, -78.5, 0",
+        "xyzPt2": "-48.01, -70.96, 139",
+        "length": "142.18"
+      },
+      "wirecut": {
+        "depth": "",
+        "selectDelete": ""
+      },
+      "square2": {
+        "xyPt1": "-61, -13.96",
+        "xyPt2": "-35.03, -127.96",
+        "xyPt3": "78.96, -102",
+        "xyPt4": "53, 12",
+        "height": "139"
+      },
+      "ec2": {
+        "colorShirt": "Red",
+        "colorEye": "130, 73, 0"
+      },
+      "emailContent": "When I was 12 I sat on my aunt's glasses and they broke. She was not happy.",
+      "error": "013-2 - Boolean differenced the wrong object."
+    },
+    {
+      "id": "4",
+      "name": "04-06",
+      "creator": "Danny Fischer",
+      "ec1Name": "or not.",
+      "ec1Points": {
+        "xyPt1": "20.81, 27.84",
+        "xyPt2": "0, 27.84",
+        "xyPt3": "0, 0",
+        "xyPt4": "9.84, -11.84",
+        "xyPt5": "21.46, -2.18",
+        "xyPt6": "16.64, 16.42"
+      },
+      "ec1Height": "59.16",
+      "maelstrom": {
+        "centerPt": "",
+        "radius1": "",
+        "radius2": "",
+        "callAngle": ""
+      },
+      "tweenCurve": "",
+      "square1": {
+        "xyPt1": "",
+        "xyPt2": "",
+        "xyPt3": "",
+        "xyPt4": "",
+        "height": ""
+      },
+      "guide": {
+        "xyzPt1": "16.64, 16.42, 0",
+        "xyzPt2": "15.65, -7.01, 59.16",
+        "length": "63.64"
+      },
+      "wirecut": {
+        "depth": "",
+        "selectDelete": ""
+      },
+      "square2": {
+        "xyPt1": "0, 10.44",
+        "xyPt2": "17.4, 10.44",
+        "xyPt3": "17.4, 27.84",
+        "xyPt4": "0, 27.84",
+        "height": "59.16"
+      },
+      "ec2": {
+        "colorShirt": "Dark Grey",
+        "colorEye": "108, 136, 97"
+      },
+      "emailContent": "Corrected spelling of the Maelstrom layer (added an L)",
+      "error": ""
+    },
+    {
+      "id": "5",
+      "name": "20-18",
+      "creator": "Tess Richards",
+      "ec1Name": "Tess’s Layer",
+      "ec1Points": {
+        "xyPt1": "-22.53, 13.84",
+        "xyPt2": "-7.6, -8.77",
+        "xyPt3": "46.17, -8.77",
+        "xyPt4": "46.17, 24.51",
+        "xyPt5": "25.68, 52.68",
+        "xyPt6": "7.33, 24.09"
+      },
+      "ec1Height": "29.45",
+      "maelstrom": {
+        "centerPt": "",
+        "radius1": "",
+        "radius2": "",
+        "callAngle": ""
+      },
+      "tweenCurve": "",
+      "square1": {
+        "xyPt1": "",
+        "xyPt2": "",
+        "xyPt3": "",
+        "xyPt4": "",
+        "height": ""
+      },
+      "guide": {
+        "xyzPt1": "46.17, 24.51, 0",
+        "xyzPt2": "29.32, 11.45, 67.16",
+        "length": "70.46"
+      },
+      "wirecut": {
+        "depth": "",
+        "selectDelete": ""
+      },
+      "square2": {
+        "xyPt1": "-32.98, -19.69",
+        "xyPt2": "29.32, -19.69",
+        "xyPt3": "29.32, 42.61",
+        "xyPt4": "-32.98, 42.61",
+        "height": "29.45"
+      },
+      "ec2": {
+        "colorShirt": "Cream",
+        "colorEye": "105, 81, 35"
+      },
+      "emailContent": "",
+      "error": ""
+    },
+    {
+      "id": "6",
+      "name": "14-18",
+      "creator": "Nick Romano",
+      "ec1Name": "A Name",
+      "ec1Points": {
+        "xyPt1": "-87.1, 12.22",
+        "xyPt2": "-50.54, 12.22",
+        "xyPt3": "-50.54, 39.54",
+        "xyPt4": "-72.73, 54.61",
+        "xyPt5": "70.25, 38.5",
+        "xyPt6": "-114.24, 30.86"
+      },
+      "ec1Height": "75.65",
+      "maelstrom": {
+        "centerPt": "",
+        "radius1": "",
+        "radius2": "",
+        "callAngle": ""
+      },
+      "tweenCurve": "",
+      "square1": {
+        "xyPt1": "",
+        "xyPt2": "",
+        "xyPt3": "",
+        "xyPt4": "",
+        "height": ""
+      },
+      "guide": {
+        "xyzPt1": "-114.63, 13.69, 0",
+        "xyzPt2": "-50.54, 25.88, 346.36",
+        "length": "352.45"
+      },
+      "wirecut": {
+        "depth": "",
+        "selectDelete": ""
+      },
+      "square2": {
+        "xyPt1": "-50.54, 39.54",
+        "xyPt2": "-77.86, 39.54",
+        "xyPt3": "-77.86, 12.22",
+        "xyPt4": "-50.54, 12.22",
+        "height": "931.19"
+      },
+      "ec2": {
+        "colorShirt": "Grey",
+        "colorEye": "152, 106, 54"
+      },
+      "emailContent": "falafel",
+      "error": ""
+    },
+    {
+      "id": "7",
+      "name": "13-13",
+      "creator": "Michael Muchmore",
+      "ec1Name": "Michael Muchmore",
+      "ec1Points": {
+        "xyPt1": "-36, 28",
+        "xyPt2": "-36, 72",
+        "xyPt3": "25, 72",
+        "xyPt4": "-3, 49",
+        "xyPt5": "6, 12",
+        "xyPt6": "-24, 12"
+      },
+      "ec1Height": "3.64",
+      "maelstrom": {
+        "centerPt": "",
+        "radius1": "",
+        "radius2": "",
+        "callAngle": ""
+      },
+      "tweenCurve": "",
+      "square1": {
+        "xyPt1": "",
+        "xyPt2": "",
+        "xyPt3": "",
+        "xyPt4": "",
+        "height": ""
+      },
+      "guide": {
+        "xyzPt1": "-3, 49, 0",
+        "xyzPt2": "3.04, 33.82, -3.64",
+        "length": "16.73"
+      },
+      "wirecut": {
+        "depth": "",
+        "selectDelete": ""
+      },
+      "square2": {
+        "xyPt1": "46, 46.43",
+        "xyPt2": "20.78, 132.34",
+        "xyPt3": "-65.12, 107.12",
+        "xyPt4": "-39.9, 21.21",
+        "height": ""
+      },
+      "ec2": {
+        "colorShirt": "Black",
+        "colorEye": "255, 191, 191"
+      },
+      "emailContent": "",
+      "error": ""
+    },
+    {
+      "id": "8",
+      "name": "10-19",
+      "creator": "Jess Sherlock",
+      "ec1Name": "backpfeifengesicht",
+      "ec1Points": {
+        "xyPt1": "-6.28, -5.51",
+        "xyPt2": "11.26, -5.51",
+        "xyPt3": "11.26, 4.3",
+        "xyPt4": "-13.65, 16.76",
+        "xyPt5": "-5.12, 4.13",
+        "xyPt6": "-20.9, -9.22"
+      },
+      "ec1Height": "17.48",
+      "maelstrom": {
+        "centerPt": "",
+        "radius1": "",
+        "radius2": "",
+        "callAngle": ""
+      },
+      "tweenCurve": "",
+      "square1": {
+        "xyPt1": "",
+        "xyPt2": "",
+        "xyPt3": "",
+        "xyPt4": "",
+        "height": ""
+      },
+      "guide": {
+        "xyzPt1": "11.26, 4.3, 0",
+        "xyzPt2": "0, 10.53, 17.48",
+        "length": "21.71"
+      },
+      "wirecut": {
+        "depth": "",
+        "selectDelete": ""
+      },
+      "square2": {
+        "xyPt1": "3.75, -10.41",
+        "xyPt2": "15.68, -10.41",
+        "xyPt3": "15.68, 1.52",
+        "xyPt4": "3.75, 1.52",
+        "height": "8.07"
+      },
+      "ec2": {
+        "colorShirt": "Pink",
+        "colorEye": "94, 134, 109"
+      },
+      "emailContent": "Had some trouble with the final Boolean difference. I had three solids to take out, the largest one failed.",
+      "error": "013-3 - Boolean difference failed."
+    },
+    {
+      "id": "9",
+      "name": "18-23",
+      "creator": "Rebecca Waters",
+      "ec1Name": "Or Not",
+      "ec1Points": {
+        "xyPt1": "9.78, 1.83",
+        "xyPt2": "9.78, 10.93",
+        "xyPt3": "14.67, 19.39",
+        "xyPt4": "15.38, 11.36",
+        "xyPt5": "19.68, 3.91",
+        "xyPt6": "16.96, 1.83"
+      },
+      "ec1Height": "20.53",
+      "maelstrom": {
+        "centerPt": "",
+        "radius1": "",
+        "radius2": "",
+        "callAngle": ""
+      },
+      "tweenCurve": "",
+      "square1": {
+        "xyPt1": "",
+        "xyPt2": "",
+        "xyPt3": "",
+        "xyPt4": "",
+        "height": ""
+      },
+      "guide": {
+        "xyzPt1": "9.78, 10.93, 0",
+        "xyzPt2": "12.22, 15.16, 20.53",
+        "length": "21.1"
+      },
+      "wirecut": {
+        "depth": "",
+        "selectDelete": ""
+      },
+      "square2": {
+        "xyPt1": "19.69, 6.45",
+        "xyPt2": "15.07, 16.36",
+        "xyPt3": "5.16, 11.75",
+        "xyPt4": "9.78, 1.83",
+        "height": "20.53"
+      },
+      "ec2": {
+        "colorShirt": "EC-2",
+        "colorEye": "255, 191, 191"
+      },
+      "emailContent": "I've attached my directive. Hopefully it works.",
+      "error": ""
+    },
+    {
+      "id": "10",
+      "name": "18-07",
+      "creator": "Ryan Gilmore",
+      "ec1Name": "EC-1",
+      "ec1Points": {
+        "xyPt1": "27.57, -17.07",
+        "xyPt2": "9.54, -5.65",
+        "xyPt3": "13.07, -0.09",
+        "xyPt4": "7.79, 21.14",
+        "xyPt5": "44.27, 26.86",
+        "xyPt6": "37.61, 2.15"
+      },
+      "ec1Height": "72.73",
+      "maelstrom": {
+        "centerPt": "",
+        "radius1": "",
+        "radius2": "",
+        "callAngle": ""
+      },
+      "tweenCurve": "",
+      "square1": {
+        "xyPt1": "",
+        "xyPt2": "",
+        "xyPt3": "",
+        "xyPt4": "",
+        "height": ""
+      },
+      "guide": {
+        "xyzPt1": "37.61, 2.15, 0",
+        "xyzPt2": "40.94, 14.51, 72.74",
+        "length": "73.86"
+      },
+      "wirecut": {
+        "depth": "",
+        "selectDelete": ""
+      },
+      "square2": {
+        "xyPt1": "18.56, -18.07",
+        "xyPt2": "23.86, -2.37",
+        "xyPt3": "8.15, 2.92",
+        "xyPt4": "2.85, -12.77",
+        "height": "72.73"
+      },
+      "ec2": {
+        "colorShirt": "EC-2",
+        "colorEye": "167, 219, 219"
+      },
+      "emailContent": "",
+      "error": "Did not rename EC-1 or EC-2"
+    },
+    {
+      "id": "11",
+      "name": "05-16",
+      "creator": "Erin Paradis",
+      "ec1Name": "Rudolph The Red Nosed Reindeer",
+      "ec1Points": {
+        "xyPt1": "15.35, 26.58",
+        "xyPt2": "24.26, 33.91",
+        "xyPt3": "33.17, 41.23",
+        "xyPt4": "26.34, 47.96",
+        "xyPt5": "19.51, 54.69",
+        "xyPt6": "7.99, 57.22"
+      },
+      "ec1Height": "36.24",
+      "maelstrom": {
+        "centerPt": "",
+        "radius1": "",
+        "radius2": "",
+        "callAngle": ""
+      },
+      "tweenCurve": "",
+      "square1": {
+        "xyPt1": "",
+        "xyPt2": "",
+        "xyPt3": "",
+        "xyPt4": "",
+        "height": ""
+      },
+      "guide": {
+        "xyzPt1": "14.74, 35.61, 0",
+        "xyzPt2": "-37.54, -7.85, 36.24",
+        "length": "77.06"
+      },
+      "wirecut": {
+        "depth": "",
+        "selectDelete": ""
+      },
+      "square2": {
+        "xyPt1": "2.14, 23.28",
+        "xyPt2": "25.24, 23.28",
+        "xyPt3": "25.24, 46.38",
+        "xyPt4": "2.14, 23.28",
+        "height": "89.48"
+      },
+      "ec2": {
+        "colorShirt": "Faded Red",
+        "colorEye": "119, 50, 1"
+      },
+      "emailContent": "",
+      "error": "Used curves not polyline for EC1"
+    },
+    {
+      "id": "12",
+      "name": "11-01",
+      "creator": "Kenny Adams",
+      "ec1Name": "IAMDEATH",
+      "ec1Points": {
+        "xyPt1": "17.81, 18.93",
+        "xyPt2": "39, 101.42",
+        "xyPt3": "112.29, 82.6",
+        "xyPt4": "124.4, 40.53",
+        "xyPt5": "66.15, 64.88",
+        "xyPt6": "53.11, 30.97"
+      },
+      "ec1Height": "182.49",
+      "maelstrom": {
+        "centerPt": "",
+        "radius1": "",
+        "radius2": "",
+        "callAngle": ""
+      },
+      "tweenCurve": "",
+      "square1": {
+        "xyPt1": "",
+        "xyPt2": "",
+        "xyPt3": "",
+        "xyPt4": "",
+        "height": ""
+      },
+      "guide": {
+        "xyzPt1": "53.11, 30.97, 0",
+        "xyzPt2": "28.41, 60.17, 185.49 ",
+        "length": "189.39"
+      },
+      "wirecut": {
+        "depth": "",
+        "selectDelete": ""
+      },
+      "square2": {
+        "xyPt1": "-20.22, -22.78",
+        "xyPt2": "37.2, -22.78",
+        "xyPt3": "37.2, 34.64",
+        "xyPt4": "-20.22, 34.64",
+        "height": "138.84"
+      },
+      "ec2": {
+        "colorShirt": "Grey",
+        "colorEye": "0, 102, 255"
+      },
+      "emailContent": "Zak - Here ya go homie. Stay fresh",
+      "error": ""
+    },
+    {
+      "id": "13",
+      "name": "01-07",
+      "creator": "Amanda Golemba",
+      "ec1Name": "Clever Name",
+      "ec1Points": {
+        "xyPt1": "0, 0",
+        "xyPt2": "106.88, 0",
+        "xyPt3": "106.88, 37.17",
+        "xyPt4": "-20.12, 116.14",
+        "xyPt5": "-10.25, 70.74",
+        "xyPt6": "-60.26, 43.75"
+      },
+      "ec1Height": "55.73",
+      "maelstrom": {
+        "centerPt": "",
+        "radius1": "",
+        "radius2": "",
+        "callAngle": ""
+      },
+      "tweenCurve": "",
+      "square1": {
+        "xyPt1": "",
+        "xyPt2": "",
+        "xyPt3": "",
+        "xyPt4": "",
+        "height": ""
+      },
+      "guide": {
+        "xyzPt1": "106.88, 37.17, 0",
+        "xyzPt2": "43.69, -4.28, 125.33",
+        "length": "146.35"
+      },
+      "wirecut": {
+        "depth": "",
+        "selectDelete": ""
+      },
+      "square2": {
+        "xyPt1": "43.69, -41.33",
+        "xyPt2": "117.8, -41.33",
+        "xyPt3": "117.8, 32.77",
+        "xyPt4": "43.69, 32.77",
+        "height": "125.33"
+      },
+      "ec2": {
+        "colorShirt": "Green",
+        "colorEye": "45, 137, 150"
+      },
+      "emailContent": "Unclear. Hope it gives you something to work with.†P.S. Maelstrom is awesome.",
+      "error": "013-2 - Boolean differenced the wrong object."
+    },
+    {
+      "id": "14",
+      "name": "04-03",
+      "creator": "DJ Curley",
+      "ec1Name": "Extra Crappy-1",
+      "ec1Points": {
+        "xyPt1": "-15.42, 19.42",
+        "xyPt2": "-15.42, -7.57",
+        "xyPt3": "32.13, -7.57",
+        "xyPt4": "14.03, -0.82",
+        "xyPt5": "7.89, 23.71",
+        "xyPt6": ""
+      },
+      "ec1Height": "35.79",
+      "maelstrom": {
+        "centerPt": "",
+        "radius1": "",
+        "radius2": "",
+        "callAngle": ""
+      },
+      "tweenCurve": "",
+      "square1": {
+        "xyPt1": "",
+        "xyPt2": "",
+        "xyPt3": "",
+        "xyPt4": "",
+        "height": ""
+      },
+      "guide": {
+        "xyzPt1": "7.89, 23.71, 0",
+        "xyzPt2": "-3.76, 21.57, 35.7",
+        "length": "37.7"
+      },
+      "wirecut": {
+        "depth": "",
+        "selectDelete": ""
+      },
+      "square2": {
+        "xyPt1": "-15.42, 19.42",
+        "xyPt2": "11.57, 19.42",
+        "xyPt3": "11.57, -7.57",
+        "xyPt4": "-15.42, -7.57",
+        "height": "35.79"
+      },
+      "ec2": {
+        "colorShirt": "Sky Blue",
+        "colorEye": "99, 57, 57"
+      },
+      "emailContent": "",
+      "error": "EC-1 only has 5 sides"
+    },
+    {
+      "id": "15",
+      "name": "03-19",
+      "creator": "Christian Stone",
+      "ec1Name": "SUPER FUNTIME",
+      "ec1Points": {
+        "xyPt1": "24.12. 86.1",
+        "xyPt2": "24.12, 47.22",
+        "xyPt3": "29.4, 47.22",
+        "xyPt4": "27.86, 55.35",
+        "xyPt5": "44.77, 50.08",
+        "xyPt6": "46.31, 95.76"
+      },
+      "ec1Height": "37.79",
+      "maelstrom": {
+        "centerPt": "",
+        "radius1": "",
+        "radius2": "",
+        "callAngle": ""
+      },
+      "tweenCurve": "",
+      "square1": {
+        "xyPt1": "",
+        "xyPt2": "",
+        "xyPt3": "",
+        "xyPt4": "",
+        "height": ""
+      },
+      "guide": {
+        "xyzPt1": "24.12, 86.1, 0",
+        "xyzPt2": "51.14, 84.67, 21.97",
+        "length": "34.85"
+      },
+      "wirecut": {
+        "depth": "",
+        "selectDelete": ""
+      },
+      "square2": {
+        "xyPt1": "24.12, 86.1",
+        "xyPt2": "33.79, 63.91",
+        "xyPt3": "55.97, 73.58",
+        "xyPt4": "46.31, 95.76",
+        "height": "37.79"
+      },
+      "ec2": {
+        "colorShirt": "Purple",
+        "colorEye": "255, 191, 191"
+      },
+      "emailContent": "Dat plant booty.",
+      "error": ""
+    },
+    {
+      "id": "16",
+      "name": "10-29",
+      "creator": "Jansen Van Grinsven",
+      "ec1Name": "*-----------*",
+      "ec1Points": {
+        "xyPt1": "18.59, -73.72",
+        "xyPt2": "18.59, -46.05",
+        "xyPt3": "42.17, -46.05",
+        "xyPt4": "36.64, -57.6",
+        "xyPt5": "47.22, 67.7",
+        "xyPt6": "62.38, -63.61"
+      },
+      "ec1Height": "24.61",
+      "maelstrom": {
+        "centerPt": "",
+        "radius1": "",
+        "radius2": "",
+        "callAngle": ""
+      },
+      "tweenCurve": "",
+      "square1": {
+        "xyPt1": "",
+        "xyPt2": "",
+        "xyPt3": "",
+        "xyPt4": "",
+        "height": ""
+      },
+      "guide": {
+        "xyzPt1": "56.95, -31.22, -12.42",
+        "xyzPt2": "41.86, 12.05, 45.76",
+        "length": "74.06"
+      },
+      "wirecut": {
+        "depth": "",
+        "selectDelete": ""
+      },
+      "square2": {
+        "xyPt1": "35.36, -44.15",
+        "xyPt2": "83.46, -27.38",
+        "xyPt3": "66.69, 20.71",
+        "xyPt4": "18.59, 3.94",
+        "height": "45.76"
+      },
+      "ec2": {
+        "colorShirt": "Gray",
+        "colorEye": "64, 92, 219"
+      },
+      "emailContent": "Hey guy here be da file. I got tripped up on the 3rd to last step I'm pretty sure",
+      "error": "008, 011-3 - Did not extrude curve as solid.EC-1 has 1 extra side, for a total of 7 sides, final point is 52.76, -87.67"
+    }
+  ]
+}
