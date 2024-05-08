@@ -75,6 +75,10 @@ body {
   width: 148px;
   height: 148px;
 }
+.formHeader {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
 .smallText {
   margin-top: 6px;
   font-size: 0.85em;
@@ -83,20 +87,30 @@ body {
 main { position: relative; }
 footer { display: flex; justify-content: space-between; }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, .subHeader {
   font-family: "Smooch Sans", Arial, sans-serif;
 }
 h1, h2, h3, h4, h5, h6,
-b, strong {
+b, strong, .subHeader {
   color: var(--heading-color, #333);
 }
 h1 > a {
   color: inherit;
   text-decoration: none;
 }
+.slimLabel {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
 #submit {
   background-color: #f6f4f0;
   padding: 8px;
+}
+button {
+  background-color: #f6f4f0;
+}
+button:hover, #submit:hover {
+  color: gray;
 }
 
 h1 { font-size: 3.2rem; font-weight: 600; }

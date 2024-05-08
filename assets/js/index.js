@@ -44,7 +44,6 @@ fetch("http://localhost:3000/data")
     });
 });
 
-
 // Copy Event Listener
 addEventListener("copy", () => {
     selBody = document.body;
@@ -55,7 +54,6 @@ function revertBody(){
     selBody = document.body;
     selBody.style.background = 'linear-gradient(#f6f6f6, #E7E5DF)';
 }
-
 
 // Click Listener, Return 6 clicks to form
 const drawBox = document.querySelector('#drawBox');
@@ -85,6 +83,16 @@ drawBox.addEventListener("click", (event) => {
     }, {once : true});
 }, {once : true});
 
+// Reset Draw Box
+// resetButton = document.querySelector('#drawBoxReset')
+// resetButton.addEventListener('click', () => {
+//     ec1Pt1.value = "";
+//     ec1Pt2.value = "";
+//     ec1Pt3.value = "";
+//     ec1Pt4.value = "";
+//     ec1Pt5.value = "";
+//     ec1Pt6.value = "";
+// });
 
 document.querySelector('#form111').addEventListener('submit', event => {
     event.preventDefault();

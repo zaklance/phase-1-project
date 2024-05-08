@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link href="../assets/css/style.css" rel="stylesheet" />
-    <script src="../assets/js/index.js" defer></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link id="styles" rel="stylesheet" href="./assets/css/color-picker.css">
+
+    <script src="./assets/js/index.js" defer></script>
 </head>
 <body oncopy="return false" oncut="return false" onpaste="return true">
     <header>
@@ -17,99 +19,146 @@
         <div>
             <form id="form111">
                 <h3>Mass Modeler</h3>
+                <!-- <div class="color-picker">
+                    <input type="text" name="picker31" id="picker31" class="color-preview btn-appearance" autocomplete="off" spellcheck="false"
+                      placeholder="Définir la couleur au format HSL" value="red" data-format="rgb" data-color-presets='{"hue": 0, "hueSteps": 12, "lightSteps": 10, "saturation": 85}'>
+                </div> -->
+                <h4 class="formHeader">Identifier</h4>
                 <label>
-                    <h4 class="formHeader">Identifier</h4>
                     <input type="text" name="massName" placeholder="Mass Name">
                 </label>
+                <h4 class="formHeader">Creator</h4>
                 <label>
-                    <h4 class="formHeader">Creator</h4>
                     <input type="text" name="creator" placeholder="Creator Name">
                 </label>
+                <h4 class="formHeader">EC-1 Layer Name</h4>
                 <label>
-                    <h4 class="formHeader">EC-1 Layer Name</h4>
                     <input type="text" name="ec1Name" placeholder="Layer Name">
                 </label>
-                <label>
-                    <h4 class="formHeader">EC-1 Points</h4>
+                <h4 class="formHeader">EC-1 Points</h4>
+                <label class="slimLabel">
                     <input id="ec1Pt1" type="text" name="ec1Pt1" placeholder="Point 1 (x, y)" value="">
-                    <input id="ec1Pt2" type="text" name="ec1Pt2" placeholder="Point 2 (x, y)" value="">
-                    <input id="ec1Pt3" type="text" name="ec1Pt3" placeholder="Point 3 (x, y)" value="">
-                    <input id="ec1Pt4" type="text" name="ec1Pt4" placeholder="Point 4 (x, y)" value="">
-                    <input id="ec1Pt5" type="text" name="ec1Pt5" placeholder="Point 5 (x, y)" value="">
-                    <input id="ec1Pt6" type="text" name="ec1Pt6" placeholder="Point 6 (x, y)" value="">
-                    <p></p>
                 </label>
-                <label id="drawArea">
+                <label class="slimLabel">
+                    <input id="ec1Pt2" type="text" name="ec1Pt2" placeholder="Point 2 (x, y)" value="">
+                </label>
+                <label class="slimLabel">
+                    <input id="ec1Pt3" type="text" name="ec1Pt3" placeholder="Point 3 (x, y)" value="">
+                </label>
+                <label class="slimLabel">
+                    <input id="ec1Pt4" type="text" name="ec1Pt4" placeholder="Point 4 (x, y)" value="">
+                </label>
+                <label class="slimLabel">
+                    <input id="ec1Pt5" type="text" name="ec1Pt5" placeholder="Point 5 (x, y)" value="">
+                </label>
+                <label class="slimLabel">
+                    <input id="ec1Pt6" type="text" name="ec1Pt6" placeholder="Point 6 (x, y)" value="">
+                </label>
+                <div id="drawArea">
                     <div id="drawBox"></div>
                     <p class="smallText">Click the points of your polyline in the square above. 6 clicks: 1 acute angle, 1 obtuse, and one right angle.</p>
-                </label>
+                </div>
+                <h4 class="formHeader">EC-1 Height</h4>
                 <label>
-                    <h4 class="formHeader">EC-1 Height</h4>
                     <input type="number" name="ec1Height" placeholder="Height">
                 </label>
-                <label>
-                    <h4 class="formHeader">Maelstrom</h4>
+                <h4 class="formHeader">Maelstrom</h4>
+                <label class="slimLabel">
                     <input type="text" name="centerPt" placeholder="Center Point">
+                </label>
+                <label class="slimLabel">
                     <input type="number" name="radius1" placeholder="Radius 1">
+                </label>
+                <label class="slimLabel">
                     <input type="number" name="radius2" placeholder="Radius 2">
+                </label>
+                <label class="slimLabel">
                     <input type="number" name="callAngle" placeholder="Call Angle">
                 </label>
-                <label>
-                    <h4 class="formHeader">Square 1 Points</h4>
+                <h4 class="formHeader">Square 1 Points</h4>
+                <label class="slimLabel">
                     <input type="text" name="sq1Pt1" placeholder="Point 1 (x, y)">
+                </label>
+                <label class="slimLabel">
                     <input type="text" name="sq1Pt2" placeholder="Point 2 (x, y)">
+                </label>
+                <label class="slimLabel">
                     <input type="text" name="sq1Pt3" placeholder="Point 3 (x, y)">
+                </label>
+                <label class="slimLabel">
                     <input type="text" name="sq1Pt4" placeholder="Point 4 (x, y)">
                 </label>
+                <h4 class="formHeader">Square 1 Height</h4>
                 <label>
-                    <h4 class="formHeader">Square 1 Height</h4>
                     <input type="number" name="sq1Height" placeholder="Height">
                 </label>
-                <label>
-                    <h4 class="formHeader">Guide Line Points</h4>
+                <h4 class="formHeader">Guide Line Points</h4>
+                <label class="slimLabel">
                     <input type="text" name="guidePt1" placeholder="Point 1 (x, y, z)">
+                </label>
+                <label class="slimLabel">
                     <input type="text" name="guidePt2" placeholder="Point 2 (x, y, z)">
                     <!-- <input type="number" name="guideLength" placeholder="length"> -->
                 </label>
-                <label>
-                    <h4 class="formHeader">Wirecut</h4>
+                <h4 class="formHeader">Wirecut</h4>
+                <label class="slimLabel">
                     <input type="number" name="cutDepth" placeholder="cut depth">
+                </label>
+                <label class="slimLabel">
                     <input type="text" name="selectDelete" placeholder="Delete: A or B">
                 </label>
-                <label>
-                    <h4 class="formHeader">Square 2 Points</h4>
+                <h4 class="formHeader">Square 2 Points</h4>
+                <label class="slimLabel">
                     <input type="text" name="sq2Pt1" placeholder="Point 1 (x, y)">
+                </label>
+                <label class="slimLabel">
                     <input type="text" name="sq2Pt2" placeholder="Point 2 (x, y)">
+                </label>
+                <label class="slimLabel">
                     <input type="text" name="sq2Pt3" placeholder="Point 3 (x, y)">
+                </label>
+                <label class="slimLabel">
                     <input type="text" name="sq2Pt4" placeholder="Point 4 (x, y)">
                 </label>
+                <h4 class="formHeader">Square 2 Height</h4>
                 <label>
-                    <h4 class="formHeader">Square 2 Height</h4>
                     <input type="number" name="sq2Height" placeholder="Height">
                 </label>
+                <h4 class="formHeader">Shirt Color</h4>
                 <label>
-                    <h4 class="formHeader">Shirt Color</h4>
                     <input type="text" name="colorShirt" placeholder="Color of Shirt">
                 </label>
+                <h4 class="formHeader">Eye Color</h4>
                 <label>
-                    <h4 class="formHeader">Eye Color</h4>
                     <input type="text" name="colorEye" placeholder="RGB Values 0-255 (r,g,b)">
-                    <p class="smallText">Use the color picker and enter the RGB values (0-255) above.</p>
-                    <input type="color"/>
                 </label>
+                <div>
+                    <p class="smallText">Use the color picker and enter the RGB values above (r, g, b).</p>
+                </div>
+                <label class="slimLabel">
+                    <input type="color" name="" id="">
+                </label>
+                <h4 class="formHeader">Email Text Content</h4>
                 <label>
-                    <h4 class="formHeader">Email Text Content</h4>
                     <input type="text" name="emailContent" placeholder="Text, if they entered a message">
                 </label>
+                <h4 class="formHeader">Error</h4>
                 <label>
-                    <h4 class="formHeader">Error</h4>
                     <input type="text" name="error" placeholder="Error Info">
                 </label>
-                <input id="submit" type="submit" value="Submit Mass" />
+                <input id="submit" type="submit" value="Submit Mass">
             </form>
             <div id="directive" class="container">
+
             </div>
         </div>
     </div>
+    
+    
+    <!-- <script src="./assets/js/color-picker.js"></script>
+    <script src="./assets/js/bootstrapColors.js"></script>
+    <script src="./assets/js/materialColors.js"></script>
+    <script src="./assets/js/tailwindColors.js"></script>
+    <script src="./assets/js/script.js"></script> -->
 </body>
 </html>
