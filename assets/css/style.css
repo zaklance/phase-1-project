@@ -54,6 +54,7 @@ body {
   margin: 20px;
   float: left;
   padding: 4px;
+  transition: all .25s ease;
 }
 #directive > div:hover {
   background-color: #white;

@@ -83,17 +83,6 @@ drawBox.addEventListener("click", (event) => {
     }, {once : true});
 }, {once : true});
 
-// Reset Draw Box
-// resetButton = document.querySelector('#drawBoxReset')
-// resetButton.addEventListener('click', () => {
-//     ec1Pt1.value = "";
-//     ec1Pt2.value = "";
-//     ec1Pt3.value = "";
-//     ec1Pt4.value = "";
-//     ec1Pt5.value = "";
-//     ec1Pt6.value = "";
-// });
-
 document.querySelector('#form111').addEventListener('submit', event => {
     event.preventDefault();
     fetch("http://localhost:3000/data", {
